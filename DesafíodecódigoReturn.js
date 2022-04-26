@@ -132,3 +132,18 @@ console.log('result is', result);
 Variables                Datos
 sum             -        num1 + num2
 result          -        sumNums(2,3) + sumNums(3,sumNums(2,1)) + sumNums(sumNums(2,1),sumNums(2,3));
+
+*/
+
+var x = 10, y = 20;
+
+
+function abc(x, y) {
+        x = x+10;
+        y = y+10;
+
+        return x*10;
+}
+z = abc(x,y) + abc(y, x);
+
+console.log(z);
