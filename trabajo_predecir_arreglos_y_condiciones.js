@@ -36,3 +36,10 @@ console.log(movieLibrary);
 Variables                Datos
 movieLibrary      =     ["Bambi", "E.T.", "Toy Story"];
 */
+
+
+function sum_even(){
+    var sum = 0;
+    //your code here
+return sum;
+}
